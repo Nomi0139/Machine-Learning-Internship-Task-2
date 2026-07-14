@@ -31,7 +31,7 @@ def clean_data(path):
     return df
 
 
-df = clean_data("data/AB_NYC_2019.csv")
+df = clean_data("AB_NYC_2019.csv")
 print(df.shape)
 print(df.isnull().sum())
-df.to_csv("data/AB_NYC_2019_cleaned.csv", index=False)
+df.to_csv("AB_NYC_2019_cleaned.csv", index=False)
